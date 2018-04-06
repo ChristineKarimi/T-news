@@ -1,0 +1,167 @@
+{% extends 'base.html' %} {% import 'macros.html' as macro %} {% if title %}
+<title>{{title}}</title>
+{% else %}
+<title>US News</title>
+{% endif %} 
+{% block content %} 
+
+<div class="container-fluid" style="background-color: rgb(238,238,238)">
+    <div class="row">
+        <div class="col-md-3" style="height: 90vh; width: 15em; overflow: scroll; background-color: rgb(34,53,71)">
+
+            <hr>
+            <h4 style="color:#d5dade">General Sources</h4>
+            <hr>
+            <div>
+                {{macro.displaySourceList(general)}}
+            </div>
+            <hr>
+
+            <h4 style="color:#d5dade">Business Sources</h4>
+            <hr>
+            <div>
+                {{macro.displaySourceList(business)}}
+            </div>
+            <hr>
+
+            <h4 style="color:#d5dade">Entertainment Sources</h4>
+            <hr>
+            <div>
+                {{macro.displaySourceList(entertainment)}}
+            </div>
+            <hr>
+
+            <h4 style="color:#d5dade">Health Sources</h4>
+            <hr>
+            <div>
+                {{macro.displaySourceList(health)}}
+            </div>
+            <hr>
+
+            <h4 style="color:#d5dade">Technology Sources</h4>
+            <hr>
+            <div>
+                {{macro.displaySourceList(technology)}}
+            </div>
+            <hr>
+
+            <h4 style="color:#d5dade">Sports Sources</h4>
+            <hr>
+            <div>
+                {{macro.displaySourceList(sports)}}
+            </div>
+        </div>
+
+        <div class="col-md-9" style="margin-left: 3%; margin-top: 2.5%;">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="jumbotron-fluid">
+                        <div class="panel-heading" style="background-color: dodgerblue; font-size: 16px;">
+                            <span>General News</span>
+                        </div>
+                        <a href="{{ url_for('main.general', category='general')}}">
+                        <img src="{{ url_for('static', filename="images/obama1.jpg")}}" alt="" class="img-responsive">
+                        </a>
+                        <style>
+                            .jumbotron-fluid {
+                                margin: 5% 0% 0% 0%;
+                                background-color: white;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="jumbotron-fluid">
+                        <div class="panel-heading" style="background-color: dodgerblue; font-size: 16px;">
+                            <span>Business News</span>
+                        </div>
+                        <a href="{{ url_for('main.general', category='business')}}">
+                        <img src="{{ url_for('static', filename="images/business1.jpg")}}" alt="" class="img-responsive">                        
+                        </a>
+                        <style>
+                            .jumbotron-fluid {
+                                margin: 5% 0% 0% 0%;
+                                background-color: white;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="jumbotron-fluid">
+                        <div class="panel-heading" style="background-color: dodgerblue; font-size: 16px;">
+                            <span>Entertainment News</span>
+                        </div>
+                        <a href="{{ url_for('main.general', category='entertainment')}}">
+                        <img src="{{ url_for('static', filename="images/entertainment1.jpg")}}" alt="" class="img-responsive">
+                        </a>
+                        <style>
+                            .jumbotron-fluid {
+                                margin: 5% 0% 0% 0%;
+                                background-color: white;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 2%;">
+                <div class="col-md-4">
+                    <div class="jumbotron-fluid">
+                        <div class="panel-heading" style="background-color: dodgerblue; font-size: 16px;">
+                            <span>Health News</span>
+                        </div>
+                        <a href="{{ url_for('main.general', category='health')}}">
+                        <img src="{{ url_for('static', filename="images/health1.jpg")}}" alt="" class="img-responsive">
+                        </a>
+                        <style>
+                            .jumbotron-fluid {
+                                margin: 5% 0% 0% 0%;
+                                background-color: white;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="jumbotron-fluid">
+                        <div class="panel-heading" style="background-color: dodgerblue; font-size: 16px;">
+                            <span>Technology News</span>
+                        </div>
+                        <a href="{{ url_for('main.general', category='technology')}}">
+                        <img src="{{ url_for('static', filename="images/technology1.jpg")}}" alt="" class="img-responsive">
+                        </a>
+                        <style>
+                            .jumbotron-fluid {
+                                margin: 5% 0% 0% 0%;
+                                background-color: white;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="jumbotron-fluid">
+                        <div class="panel-heading" style="background-color: dodgerblue; font-size: 16px;">
+                            <span>Sports News</span>
+                        </div>
+                        <a href="{{ url_for('main.general', category='sports')}}">
+                        <img src="{{ url_for('static', filename="images/sports1.jpg")}}" alt="" class="img-responsive">
+                        </a>
+                        <style>
+                            .jumbotron-fluid {
+                                margin: 5% 0% 0% 0%;
+                                background-color: white;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+ {% endblock %}

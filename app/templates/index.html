@@ -52,6 +52,25 @@
             </div>
         </div>
 
+
+        <div class="row" style="margin-top: 2%;">
+                <div class="col-md-4">
+                    <div class="jumbotron-fluid">
+                        <div class="panel-heading" style="background-color: pink; font-size: 16px;">
+                            <span>Health News</span>
+                        </div>
+                        <a href="{{ url_for('main.general', category='health')}}">
+                        <img src="{{ url_for('static', filename="55.jpg")}}" alt="" class="img-responsive">
+                        </a>
+                        <style>
+                            .jumbotron-fluid {
+                                margin: 5% 0% 0% 0%;
+                                background-color: white;
+                            }
+                        </style>
+                    </div>
+                </div>
+
         <div class="col-md-9" style="margin-left: 3%; margin-top: 2.5%;">
 
             <div class="row">
@@ -114,7 +133,7 @@
                             <span>Health News</span>
                         </div>
                         <a href="{{ url_for('main.general', category='health')}}">
-                        <img src="{{ url_for('static', filename="images/health1.jpg")}}" alt="" class="img-responsive">
+                        <img src="{{ url_for('static', filename="55.jpg")}}" alt="" class="img-responsive">
                         </a>
                         <style>
                             .jumbotron-fluid {
@@ -131,7 +150,7 @@
                             <span>Technology News</span>
                         </div>
                         <a href="{{ url_for('main.general', category='technology')}}">
-                        <img src="{{ url_for('static', filename="images/technology1.jpg")}}" alt="" class="img-responsive">
+                        <img src="{{ url_for('static', filename="t.jpg")}}" alt="" class="img-responsive">
                         </a>
                         <style>
                             .jumbotron-fluid {
@@ -148,7 +167,7 @@
                             <span>Sports News</span>
                         </div>
                         <a href="{{ url_for('main.general', category='sports')}}">
-                        <img src="{{ url_for('static', filename="images/sports1.jpg")}}" alt="" class="img-responsive">
+                        <img src="{{ url_for('static', filename="s.jpg")}}" alt="" class="img-responsive">
                         </a>
                         <style>
                             .jumbotron-fluid {

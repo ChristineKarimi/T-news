@@ -3,9 +3,11 @@ from .models import Source, News, Category
 import request
 
 # Getting api key
+
 api_key = None
 
 # Getting the news base url
+
 base_url = None
 news_url = None
 catg_url = None
@@ -18,9 +20,9 @@ def configure_request(app):
     catg_url = app.config['CATG_API_BASE_URL']
 
 def get_sources(category):
-    """
-    Function that gets the json response to our url request
-    """
+    
+    #Function that gets the json response to our url request
+    
     get_sources_url = base_url.format(category, api_key)
 
     with urllib.request.urlopen(get_sources_url) as url:
@@ -36,9 +38,9 @@ def get_sources(category):
     return news_sources
 
 def process_sources(sources_list):
-    """
-    Function that processes the news sources and transforms them to a list of objects
-    """
+    
+    #Function that processes the news sources and transforms them to a list of objects
+    
     news_articles = []
     for source in sources_list:
         id = source.get('id')
@@ -67,9 +69,9 @@ def get_news(id):
     return news_articles    
     
 def process_articles(news_list):
-    """
-    Function that processes the news sources and transforms them to a list of objects
-    """
+    
+    #Function that processes the news sources and transforms them to a list of objects
+    
     news_articles = []
     news_dictionary = {}   
     
@@ -97,9 +99,9 @@ def process_articles(news_list):
 
 
 def get_category(category):
-    """
-    Function that gets the json response to our url request
-    """
+    
+    #Function that gets the json response to our url request
+    
     get_sources_url = catg_url.format(category, api_key)
 
     with urllib.request.urlopen(get_sources_url) as url:
@@ -116,9 +118,9 @@ def get_category(category):
 
 
 def process_categories(categories_list):
-    """
-    Function that processes the news sources and transforms them to a list of objects
-    """
+    
+    #Function that processes the news sources and transforms them to a list of objects
+    
     news_categories_articles = []
 
     for category in categories_list:

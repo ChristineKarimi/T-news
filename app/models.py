@@ -1,7 +1,7 @@
 class News:
-    """
-    News class to define News objects
-    """
+    
+    #News class to define News objects
+    
 
     def __init__(self, author, title, description, url, urlToImage, publishedAt):
         self.author = author
@@ -13,9 +13,9 @@ class News:
 
 
 class Source:
-    """
-    sources class to define source objects
-    """
+
+    #sources class to define source objects
+
 
     def __init__(self, id, name, url):
         self.id = id
@@ -23,9 +23,9 @@ class Source:
         self.url = url
 
 class Category:
-    """
-    categories class to define category objects
-    """
+    
+    #categories class to define category objects
+    
 
     def __init__(self, title, description, url, urlToImage, publishedAt):
         self.title = title

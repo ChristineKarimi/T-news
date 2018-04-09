@@ -1,4 +1,4 @@
-# NEWS
+# T-NEWS
 
 > By: Christine Kim
 
@@ -6,28 +6,27 @@
 
 > Project Name: T-News
 
-![US News Web App](/app/static/)
-
 > --------------------------------------------------------------------------------
 
 ## Description
 
-> This is a flask webapp that retrieves data from a news api and enables a user to choose the news articles to read from the news sources that they prefer.
+> This is an application that gives a list and preview news articles from various sources.
 
 ## Specifications
-> - It displays various news sources in the United States and allows the user to select the ones they prefer
-> - It enables the user to views the top articles from the new source
-> - The user is able to see the article images, the description and also the date of publication
-> - Allows the user to click on the 'read more' and read more about the article from the source
+- 
+   > Users are able to see various news sources and select the ones they prefer
+   > Users are be able to see all the news articles from that news source
+   > The user can see the image description and time the news article was created.
+   > The user can also be able to click on an article and read it fully from the news source.
+
 
 ## Setup/Installation Requirements
 
-> - Internet connection
-> - Link to deployed page: [Heroku](https://uss-news.herokuapp.com/)
+> - Link to deployed page: [Heroku](https://T-News.herokuapp.com/)
 
 ## Known Bugs
 
-> There are no known bugs so far
+> No known bugs so far
 
 ## Technologies used
 
@@ -62,4 +61,4 @@
 
 > --------------------------------------------------------------------------------
 
-> © JamesKimari | Credits [Moringa School](https://moringaschool.com/)
+> © Christine karimi | Credits [Moringa School](https://moringaschool.com/)

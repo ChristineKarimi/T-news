@@ -13,11 +13,11 @@
 > This is an application that gives a list and preview news articles from various sources.
 
 ## Specifications
-- 
-   > Users are able to see various news sources and select the ones they prefer
-   > Users are be able to see all the news articles from that news source
-   > The user can see the image description and time the news article was created.
-   > The user can also be able to click on an article and read it fully from the news source.
+
+   > - Users are able to see various news sources and select the ones they prefer.
+   > - Users are be able to see all the news articles from that news source.
+   > - The user can see the image description and time the news article was created.
+   > - The user can also be able to click on an article and read it fully from the news source.
 
 
 ## Setup/Installation Requirements
@@ -26,7 +26,7 @@
 
 ## Known Bugs
 
-> No known bugs so far
+> - No known bugs so far
 
 ## Technologies used
 
@@ -57,8 +57,8 @@
 
 ## License and terms of use
 
-> [MIT License](license) this application's source code is free for any open source projects
+> - [MIT License](license) this application's source code is free for any open source projects
 
 > --------------------------------------------------------------------------------
 
-> © Christine karimi | Credits [Moringa School](https://moringaschool.com/)
+> - © Christine karimi | Credits [Moringa School](https://moringaschool.com/)

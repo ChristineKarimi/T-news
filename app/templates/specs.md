@@ -8,7 +8,7 @@
 ## Setup/Installation Requirements
 
 > - Internet connection
-> - Link to deployed page: [Heroku](https://uss-news.herokuapp.com/)
+> - Link to deployed page: [Heroku](https://T-news.herokuapp.com/)
 
 
 ## Technologies used

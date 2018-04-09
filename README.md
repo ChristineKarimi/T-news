@@ -1,10 +1,10 @@
-# US News
+# T-News
 
-> Developer: James Kimari
+> Developer: Christine Karimi
 
 > --------------------------------------------------------------------------------
 
-> Project Name: US News
+> Project Name: T - News
 
 ![US News Web App](/app/static/images/usnews.png)
 

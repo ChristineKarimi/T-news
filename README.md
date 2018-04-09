@@ -6,7 +6,6 @@
 
 > Project Name: T - News
 
-![US News Web App](/app/static/images/usnews.png)
 
 > --------------------------------------------------------------------------------
 

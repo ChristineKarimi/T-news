@@ -4,9 +4,9 @@ from ..request import get_sources, get_news, get_category
 
 @main.route('/')
 def index():
-    """
-    view root page function that returns the index page and its data
-    """
+    
+    #view root page function that returns the index page and its data
+    
     # Getting various news categories
     general_news = get_sources( 'general' )
     business_news = get_sources('business')
@@ -21,18 +21,18 @@ def index():
 
 @main.route('/news/<id>')
 def news():
-    """
-    view root page function that returns the news page and its data
-    """
+    
+    #view root page function that returns the news page and its data
+    
     news_articles = get_news(id)
        
     return render_template('news.html', news = news_articles)
 
 @main.route('/categories/<category>')
 def general(category):
-    """
-    view root page function that returns the categories page and its data
-    """
+    
+    #view root page function that returns the categories page and its data
+    
     news_categories_articles = get_category(category)
 
     return render_template('general.html', general = news_categories_articles)
@@ -40,9 +40,9 @@ def general(category):
 
 @main.route('/categories/<category>')
 def business(category):
-    """
-    view root page function that returns the categories page and its data
-    """
+    
+    #view root page function that returns the categories page and its data
+    
     news_categories_articles = get_category(category)
 
     return render_template('business.html', business = news_categories_articles)
@@ -50,9 +50,9 @@ def business(category):
 
 @main.route('/categories/<category>')
 def entertainment(category):
-    """
-    view root page function that returns the categories page and its data
-    """
+    
+    #view root page function that returns the categories page and its data
+    
     news_categories_articles = get_category(category)
 
     return render_template('entertainment.html', entertainment=news_categories_articles)
@@ -60,9 +60,9 @@ def entertainment(category):
 
 @main.route('/categories/<category>')
 def health(category):
-    """
-    view root page function that returns the categories page and its data
-    """
+    
+    #view root page function that returns the categories page and its data
+    
     news_categories_articles = get_category(category)
 
     return render_template('health.html', health = news_categories_articles)

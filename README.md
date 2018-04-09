@@ -4,19 +4,16 @@
 
 > ------------------------------------------------------------------------------
 
-
-> --------------------------------------------------------------------------------
-
 ## Description
 
 > An application that gives a list and preview of news articles from various news sources.
 
 ## Specifications
- 
-   > It enables users to see various news sources and select the ones they prefer
-    > Users are able to see all the news articles from that news source
-    > The user is able to see the image description and time the news article was created.
-    > It also allows the user to click on an article and read it fully from the news source.
+
+> - It enables users to see various news sources and select the ones they prefer
+> - Users are able to see all the news articles from that news source
+> - The user is able to see the image description and time the news article was created.
+> - It also allows the user to click on an article and read it fully from the news source.
 
 
 ## Setup/Installation Requirements

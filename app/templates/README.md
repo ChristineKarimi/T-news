@@ -14,10 +14,10 @@
 
 ## Specifications
 
-   > - Users are able to see various news sources and select the ones they prefer.
-   > - Users are be able to see all the news articles from that news source.
-   > - The user can see the image description and time the news article was created.
-   > - The user can also be able to click on an article and read it fully from the news source.
+> - Users are able to see various news sources and select the ones they prefer.
+> - Users are be able to see all the news articles from that news source.
+> - The user can see the image description and time the news article was created.
+> - The user can also be able to click on an article and read it fully from the news source.
 
 
 ## Setup/Installation Requirements

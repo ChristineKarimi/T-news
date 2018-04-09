@@ -18,7 +18,7 @@
 
 ## Setup/Installation Requirements
 
-> - Click on the Link to the deployed page: [Heroku](https://t-news.herokuapp.com/)
+> - Click on the Link to the deployed page: [Heroku](https://teenews.herokuapp.com/)
 
 ## Known Bugs
 

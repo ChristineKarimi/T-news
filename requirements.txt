@@ -8,7 +8,6 @@ gunicorn==19.7.1
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
-
 post==1.0.0
 public==1.0.0
 query-string==1.0.0

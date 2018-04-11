@@ -20,13 +20,15 @@ def index():
     business = business_news, entertainment = entertainment_news, health = health_news, technology = technology_news, sports = sports_news)
 
 @main.route('/news/<id>')
-def news():
+def news(id):
     
     #view root page function that returns the news page and its data
     
     news_articles = get_news(id)
        
     return render_template('news.html', news = news_articles)
+
+    
 
 @main.route('/categories/<category>')
 def general(category):
